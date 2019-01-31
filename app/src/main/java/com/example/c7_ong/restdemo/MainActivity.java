@@ -4,7 +4,6 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import java.lang.String;
-import java.net.URL;
 
 import android.view.View;
 import android.widget.EditText;
@@ -26,8 +25,9 @@ public class MainActivity extends AppCompatActivity {
 public void startTask(View view)
 {
 EditText editText = (EditText) findViewById(R.id.editText);
-String value = editText.toString();
-new ConnectionClass(value).execute();
+String value = editText.getText().toString();
+//Log.d("ErrMsg", value);
+new ConnectionClass().execute(value);
 }
 
 }
