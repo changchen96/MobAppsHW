@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RESTdemo</string>
+    <string name="btnText">Click me!</string>
+    <string name="toastText">You have clicked me!</string>
+</resources>
