@@ -10,8 +10,6 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 import android.util.Log;
-
-
 import org.w3c.dom.Text;
 
 public class MainActivity extends AppCompatActivity {

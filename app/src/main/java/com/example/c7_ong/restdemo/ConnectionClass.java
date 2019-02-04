@@ -1,6 +1,7 @@
 package com.example.c7_ong.restdemo;
 
 import android.os.AsyncTask;
+import java.lang.Object;
 
 public class ConnectionClass extends AsyncTask<String, Void, String>
 {
